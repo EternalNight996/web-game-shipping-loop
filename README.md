@@ -18,13 +18,18 @@
 ## 装
 
 ```bash
-# DSH（用户级，跨项目可用）
+# ① git 方式（推荐，DSH 用户级、跨项目可用）
 git clone https://github.com/EternalNight996/web-game-shipping-loop.git \
   ~/.dsh/skills/web-game-shipping-loop
 
-# 或任何 agent 宿主的 skills 目录
+# ② 任何读 skills 目录的 agent 宿主
 npx skills add https://github.com/EternalNight996/web-game-shipping-loop
+
+# ③ npm（包已发布，见下方状态）
+npm i -D dsh-skill-web-game-shipping-loop
 ```
+
+> npm 包 `dsh-skill-web-game-shipping-loop`：0.1.0 / 0.1.1 已提交，处于 npm 的 staged 审核态（新包首次发布需要账号侧确认），registry 的 `latest` 尚未指向它。**不影响 git / `npx skills add` 两种安装方式。**
 
 ## 它管什么
 
