@@ -1,0 +1,30 @@
+{
+  "name": "dsh-skill-web-game-shipping-loop",
+  "version": "0.1.0",
+  "description": "Ship a browser game from prototype to release: deterministic probes, perf fixes, i18n, single-file size budgets, GitHub/Gitee publishing.",
+  "keywords": [
+    "dsh-skill",
+    "agent-skill",
+    "deepseek-harness",
+    "game-dev",
+    "threejs",
+    "single-file"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EternalNight996/web-game-shipping-loop.git"
+  },
+  "homepage": "https://github.com/EternalNight996/web-game-shipping-loop#readme",
+  "author": "mengbot",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "README.en.md",
+    "LICENSE"
+  ]
+}
