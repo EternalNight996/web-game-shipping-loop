@@ -1,6 +1,6 @@
 {
   "name": "dsh-skill-web-game-shipping-loop",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Ship a browser game from prototype to release: deterministic probes, perf fixes, i18n, single-file size budgets, GitHub/Gitee publishing.",
   "keywords": [
     "dsh-skill",
